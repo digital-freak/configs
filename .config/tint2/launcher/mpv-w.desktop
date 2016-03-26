@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=MPV YouTube wrapper
+GenericName=MPV YouTube wrapper
+Comment=
+Icon=mpv
+Exec=mpv-w
+Categories=Audio;AudioVideo;
+StartupNotify=false

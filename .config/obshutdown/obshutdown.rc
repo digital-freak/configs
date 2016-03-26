@@ -1,0 +1,42 @@
+#
+# Openbox shutdown dialog
+#
+
+[general]
+version =        0.1-rc1
+verbose =        false
+default_action = logout
+composite =      true
+theme =          faenza
+#buttons =        cancel logout shutdown restart suspend hibernate
+buttons =        cancel logout shutdown restart
+
+[actions]
+logout =         openbox --exit
+shutdown =       shutdown -p now
+restart =        shutdown -r now
+lock = 
+switch = 
+suspend =        
+hibernate =      
+custom = 
+
+[shortcuts]
+logout =         l
+shutdown =       s
+restart =        r
+lock = 
+switch = 
+suspend =        
+hibernate =      
+custom = 
+
+[labels]
+cancel =         CANCEL
+logout =         LOGOUT
+restart =        RESTART
+shutdown =       SHUTDOWN
+lock =           LOCK
+switch =         SWITCH USER
+suspend =        SUSPEND
+hibernate =      HIBERNATE

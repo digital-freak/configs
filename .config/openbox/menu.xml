@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+	<menu id="system-menu" label="System">
+		<item label="Customize Look and Feel">
+			<action name="Execute">
+				<command>lxappearance</command>
+			</action>
+		</item>
+		<item label="Openbox Configuration Manager">
+			<action name="Execute">
+				<command>obconf</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+		<item label="Openbox Menu Editor">
+			<action name="Execute">
+				<command>obmenu</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+		<item label="Tint2 Config">
+			<action name="Execute">
+				<command>tint2conf</command>
+			</action>
+		</item>
+		<separator/>
+		<item label="Reconfigure Openbox">
+			<action name="Reconfigure"/>
+		</item>
+		<item label="Rebuild applications menu">
+			<action name="Execute">
+				<command>regen-app-menu</command>
+			</action>
+		</item>
+	</menu>
+	<menu id="root-menu" label="Openbox 3">
+		<separator label="Openbox 3" />
+		<item icon="/usr/home/cyrax/.icons/Faience/apps/16/xterm.png" label="X Terminal">
+			<action name="Execute">
+				<command>urxvt</command>
+			</action>
+		</item>
+		<item icon="/usr/home/cyrax/.icons/Faience/apps/16/system-file-manager.png" label="File browser">
+			<action name="Execute">
+				<command>pcmanfm --no-desktop</command>
+			</action>
+		</item>
+		<item icon="/usr/home/cyrax/.icons/Faience/apps/16/accessories-text-editor.png" label="Text editor">
+			<action name="Execute">
+				<command>leafpad</command>
+			</action>
+		</item>
+		<separator/>
+		<!--		<menu execute="ob-app-menu.pl" icon="/usr/home/cyrax/.icons/Faenza/categories/16/applications-accessories.png" id="applications-pipe-menu" label="Applications"/>-->
+		<menu execute="cat ~/.cache/openbox/ob-app.menu" icon="/usr/home/cyrax/.icons/Faenza/categories/16/applications-accessories.png" id="applications-pipe-menu" label="Приложения"/>
+		<menu icon="/usr/home/cyrax/.icons/Faenza/categories/16/applications-system.png" id="system-menu"/>
+		<separator/>
+		<item icon="/usr/home/cyrax/.icons/Faenza/actions/16/system-log-out.png" label="Log Out">
+			<action name="Exit">
+				<prompt>yes</prompt>
+			</action>
+		</item>
+		<item icon="/usr/home/cyrax/.icons/Faenza/actions/16/system-shutdown-panel.png" label="Shutdown">
+			<action name="Execute">
+				<command>obshutdown</command>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>

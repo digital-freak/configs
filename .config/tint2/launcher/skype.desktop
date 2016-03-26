@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Skype
+Comment=Skype Internet Telephony
+Exec=skype
+Icon=skype
+Terminal=0
+Type=Application
+Encoding=UTF-8
+Categories=Network;Application;

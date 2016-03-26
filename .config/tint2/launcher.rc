@@ -1,0 +1,66 @@
+# Configuration file for Tint2 launcher panel
+#
+
+# Background config
+##############################################################################
+
+# ID 1 == Panel ==
+rounded          = 0
+border_width     = 0
+background_color = #D9D8D6 60
+border_color     = #757172 80
+
+# ID 2 == Tooltip ==
+rounded          = 3
+border_width     = 1
+background_color = #F7F1DA 60
+border_color     = #757172 80
+
+# Panel config
+##############################################################################
+panel_monitor = all
+panel_items = L
+panel_position = top left vertical
+panel_size = 1048 32
+panel_margin = 0 0
+panel_padding = 0 0 0
+font_shadow = 0
+panel_background_id = 1
+wm_menu = 0
+panel_dock = 0
+panel_layer = top
+strut_policy = follow_size
+
+# Tooltip config
+tooltip_padding = 4 4
+tooltip_show_timeout = 0.3
+tooltip_hide_timeout = 0.3
+tooltip_background_id = 2
+tooltip_font_color = #000000 100
+tooltip_font = Liberation Sans 9
+
+# Launcher config
+launcher_icon_theme = Faience
+launcher_padding = 2 2 4
+launcher_background_id = 0
+launcher_icon_background_id = 0
+launcher_icon_size = 24
+launcher_icon_asb = 100 0 0
+launcher_tooltip = 1
+
+# Launcher items
+launcher_item_app = /usr/home/cyrax/.config/tint2/launcher/seamonkey.desktop
+launcher_item_app = /usr/home/cyrax/.config/tint2/launcher/quiterss.desktop
+launcher_item_app = /usr/home/cyrax/.config/tint2/launcher/gajim.desktop
+#launcher_item_app = /usr/home/cyrax/.config/tint2/launcher/skype.desktop
+#launcher_item_app = /usr/home/cyrax/.config/tint2/launcher/remmina.desktop
+launcher_item_app = /usr/home/cyrax/.config/tint2/launcher/keepassx.desktop
+launcher_item_app = /usr/home/cyrax/.config/tint2/launcher/gmplayer.desktop
+launcher_item_app = /usr/home/cyrax/.config/tint2/launcher/mpv-w.desktop
+launcher_item_app = /usr/home/cyrax/.config/tint2/launcher/deadbeef.desktop
+launcher_item_app = /usr/home/cyrax/.config/tint2/launcher/galculator.desktop
+launcher_item_app = /usr/home/cyrax/.config/tint2/launcher/writer.desktop
+launcher_item_app = /usr/home/cyrax/.config/tint2/launcher/calc.desktop
+launcher_item_app = /usr/home/cyrax/.config/tint2/launcher/gnucash.desktop
+#launcher_item_app = /usr/home/cyrax/.config/tint2/launcher/fbreader.desktop
+

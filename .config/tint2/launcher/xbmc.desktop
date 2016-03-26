@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=XBMC
+GenericName=Award winning media center application
+Comment=Award winning media center application
+Icon=xbmc
+Exec=xbmc
+Categories=AudioVideo;Video;
+StartupNotify=true
